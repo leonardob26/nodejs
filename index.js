@@ -3,7 +3,7 @@ var app = module.exports = express();
 //var app 
 const port = 3000
 
-app.use('/centros', require('./controllers/apicentros'));
+app.use('/centros', require('./controllers/centros'));
 
 
 app.listen(port, () => {
